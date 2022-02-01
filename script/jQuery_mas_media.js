@@ -1,4 +1,4 @@
-﻿$(function () {
+﻿$(function() {
 
 
     function update() {
@@ -8,7 +8,5 @@
     update();
 
     /* Window event. Resize browser window */
-    $(window).resize(function () { update(); });
-
-
+    $(window).resize(update());
 });
